@@ -1,26 +1,42 @@
 .header {
+  border-bottom: 1px solid #eaeaea;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  width: 100%;
+  background-color: #ffffff;
 }
 .layout {
   margin: 0 auto;
   width: 100%;
   max-width: 975px;
   background-color: #fff;
+  padding-top: 25px;
+}
+.header_main {
 }
 .header_left {
+  gap: 50px;
 }
 .logo {
 }
 .logo img {
 }
 .header_left_table {
+}
+.main_menu {
+  position: absolute;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
-.header_left_schedule {
+.main_menu li {
 }
-.header_left_best {
-}
-.header_left_super {
+.main_menu li a {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
 }
 .header_right {
 }
