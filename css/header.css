@@ -16,21 +16,26 @@
   padding-top: 25px;
 }
 .header_top {
+  display: flex;
+  justify-content: space-between;
 }
 .header_top_left {
   gap: 50px;
 }
+
+.main_menu {
+}
 .logo {
+  display: block;
 }
 .logo img {
-}
-.main_menu {
 }
 .main_menu li {
 }
 .main_menu li a {
 }
 .header_top_right {
+  display: flex;
 }
 .main {
 }
