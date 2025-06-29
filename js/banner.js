@@ -26,39 +26,35 @@ window.addEventListener("load", () => {
     },
   ];
 
-  const total = apiData.length;
   const bannerPos = document.querySelector(".sw_banner .swiper-wrapper");
+  const banner = document.querySelector(".sw_banner");
 
   let htmlTag = "";
-
-  function makeHtml() {
-    for (i = 0; i < total; i++) {
-      htmlTag += `
+  for (let i = 0; i < apiData.length; i++) {
+    htmlTag += `
     <div class="swiper-slide">
                     <a href="${apiData[i].link}" class="banner_slide_item">
                       <img src="${apiData[i].image}" alt="${apiData[i].alt}" />
                     </a>
                   </div>
     `;
-    }
-
-    bannerPos.innerHTML = htmlTag;
   }
+
+  bannerPos.innerHTML = htmlTag;
 
   function makeSlide() {
     const swiper = new Swiper(".sw_banner", {
-      slidesPerView: 1.5,
+      slidesPerView: "auto",
       centeredSlides: true,
       spaceBetween: 80,
       loop: true,
       speed: 1000,
       autoplay: {
-        delay: 1000,
+        delay: 3000,
         disableOnInteraction: false,
       },
     });
   }
 
-  makeHtml();
-  const swiper = makeSlide();
+  makeSlide();
 });

@@ -3,23 +3,22 @@
 }
 
 .layout {
-  max-width: 100%;
 }
 
 .banner_wrap {
-  height: 345px;
   width: 100%;
 }
-.swiper.sw_banner {
+.sw_banner {
+  width: 100%;
+  max-width: 70%;
+  overflow: visible;
 }
-.banner_slide_item {
-}
-
 .banner_slide_item img {
-  border-radius: 16px;
+  display: flex;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
 }
 .banner_slide_prev {
 }
