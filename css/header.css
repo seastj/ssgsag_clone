@@ -1,5 +1,6 @@
 .header {
-  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(238 238 238);
   position: fixed;
   top: 0;
   left: 0;
@@ -16,14 +17,19 @@
   padding-top: 25px;
 }
 .header_top {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
 .header_top_left {
+  display: flex;
+  align-items: center;
   gap: 50px;
 }
 
 .main_menu {
+  display: flex;
+  gap: 30px;
 }
 .logo {
   display: block;
@@ -31,13 +37,44 @@
 .logo img {
 }
 .main_menu li {
+  font-size: 17px;
+  font-weight: 500;
 }
 .main_menu li a {
 }
+/* .main_menu li a span {
+  display: inline-block;
+  transform: translateY(-50px);
+  color: red;
+  transform: scale(2);
+} 추후 다시 적용
+  */
 .header_top_right {
   display: flex;
 }
-.main {
+.header_member {
+  display: flex;
+  gap: 30px;
 }
-.footer {
+.header_member li {
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+}
+.header_member li a {
+  display: flex;
+  align-items: center;
+  color: rgb(119, 119, 119);
+  gap: 8px;
+}
+.login {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 1px solid rgb(131 127 255);
+  border-radius: 10px;
+  background-color: rgb(131 127 255);
+}
+.header_member li a.login {
+  color: #fff;
 }
