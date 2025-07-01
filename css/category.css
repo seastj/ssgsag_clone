@@ -1,0 +1,36 @@
+.category {
+}
+.layout {
+}
+.category_list {
+  gap: 20px;
+}
+.category_list_emo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+.category_list_emo li {
+  display: block;
+  position: relative;
+  background-color: rgb(247, 247, 247);
+  border-radius: 24px;
+  height: 80px;
+  width: 80px;
+}
+.category_list_emo li a {
+}
+.category_list_emo li a img {
+  position: absolute;
+  transform: translate(31%, 31%);
+  height: 48px;
+  width: 48px;
+}
+.category_list_emo span {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(50%);
+}

@@ -59,9 +59,9 @@
   display: flex;
   position: absolute;
   justify-content: center;
+  scale: 0.6;
 }
 .banner_slide_pn .swiper-pagination-bullet {
-  scale: 0.7;
 }
 .banner_slide_pn .swiper-pagination-bullet-active {
   background-color: #000000;
