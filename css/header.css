@@ -4,21 +4,17 @@
   top: 0;
   left: 0;
   z-index: 999;
+  position: relative;
 
   width: 100%;
   background-color: #ffffff;
 }
 .layout {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 975px;
-  background-color: #fff;
-  padding: 25px 0;
 }
 .header_top {
-  position: relative;
   display: flex;
   justify-content: space-between;
+  width: 975px;
 }
 .header_top_left {
   display: flex;
