@@ -21,7 +21,9 @@
 }
 .category_list_emo li a {
 }
-.category_list_emo li a img {
+.category_list_emo li a {
+}
+.category_list_emo img {
   position: absolute;
   transform: translate(31%, 31%);
   height: 48px;

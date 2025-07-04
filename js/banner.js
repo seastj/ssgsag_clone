@@ -41,12 +41,13 @@ window.addEventListener("load", () => {
   }
 
   bannerPos.innerHTML = htmlTag;
+
   const swiper = new Swiper(".sw_banner", {
     slidesPerView: "auto",
     centeredSlides: true,
     spaceBetween: 80,
     loop: true,
-    speed: 500,
+    speed: 1000,
     autoplay: {
       delay: 1000,
       disableOnInteraction: false,
@@ -60,6 +61,4 @@ window.addEventListener("load", () => {
       clickable: true,
     },
   });
-
-  makeHtml();
 });
