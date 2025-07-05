@@ -26,11 +26,11 @@
 }
 .banner_slide_prev {
   z-index: 1;
-  display: flex;
+  display: block;
   position: absolute;
   top: 50%;
-  left: 25%;
-  transform: translate(5%, -60%);
+  left: calc(50% - 340px);
+  transform: translateY(-50%);
 
   width: 48px;
   height: 48px;
@@ -49,11 +49,11 @@
 }
 .banner_slide_next {
   z-index: 1;
-  display: flex;
+  display: block;
   position: absolute;
   top: 50%;
-  right: 25%;
-  transform: translate(-5%, -60%);
+  right: calc(50% - 340px);
+  transform: translateY(-50%);
 
   width: 48px;
   height: 48px;

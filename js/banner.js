@@ -27,7 +27,6 @@ window.addEventListener("load", () => {
   ];
 
   const bannerPos = document.querySelector(".sw_banner .swiper-wrapper");
-  const banner = document.querySelector(".sw_banner");
 
   let htmlTag = "";
   for (let i = 0; i < apiData.length; i++) {
@@ -42,23 +41,26 @@ window.addEventListener("load", () => {
 
   bannerPos.innerHTML = htmlTag;
 
-  const swiper = new Swiper(".sw_banner", {
-    slidesPerView: "auto",
-    centeredSlides: true,
-    spaceBetween: 80,
-    loop: true,
-    speed: 1000,
-    autoplay: {
-      delay: 1000,
-      disableOnInteraction: false,
-    },
-    navigation: {
-      nextEl: ".banner_slide_next",
-      prevEl: ".banner_slide_prev",
-    },
-    pagination: {
-      el: ".banner_slide_pn",
-      clickable: true,
-    },
-  });
+  function makeSlide() {
+    const swiper = new Swiper(".sw_banner", {
+      slidesPerView: "auto",
+      centeredSlides: true,
+      spaceBetween: 80,
+      loop: true,
+      speed: 1000,
+      autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".banner_slide_next",
+        prevEl: ".banner_slide_prev",
+      },
+      pagination: {
+        el: ".banner_slide_pn",
+        clickable: true,
+      },
+    });
+  }
+  makeSlide();
 });

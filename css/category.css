@@ -1,8 +1,15 @@
 .category {
+  position: relative;
+  display: flex;
+  padding-top: 65px;
+  padding-bottom: 55px;
 }
 .layout {
 }
 .category_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 .category_list_emo {
@@ -12,7 +19,7 @@
   gap: 64px;
 }
 .category_list_emo li {
-  display: block;
+  display: flex;
   position: relative;
   background-color: rgb(247, 247, 247);
   border-radius: 24px;
@@ -21,18 +28,35 @@
 }
 .category_list_emo li a {
 }
-.category_list_emo li a {
+.category_HOT {
+  position: absolute;
+  text-align: center;
+
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  padding: 3px 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: rgb(255 82 71);
+  width: 35px;
+  height: 20px;
+  border-radius: 20px;
+}
+.category_label {
+  position: absolute;
+  display: block;
+  margin-top: 12px;
+  left: 0;
+  bottom: 0;
+  background-color: red;
 }
 .category_list_emo img {
   position: absolute;
-  transform: translate(31%, 31%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 48px;
   width: 48px;
-}
-.category_list_emo span {
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transform: translate(50%);
 }
