@@ -13,32 +13,30 @@ window.addEventListener("load", function () {
     {
       link: "#",
       img: "images/cok2.png",
-      alt: "스포츠 윤리 센터",
-      label: [{ text: "대외활동", style: "cok_label_blue" }],
+      alt: "이노션",
+      label: [{ text: "공모전", style: "cok_label_blue" }],
       city: "",
-      option:
-        "[스포츠윤리센터] 스포츠윤리센터 성희롱·성폭력 예방 숏폼 영상공모전",
-      date: "D-28",
+      option: "[이노션] 2025 INNOCEAN S.O.S(SOCIAL PROBLEM SOLVER) 공모전",
+      date: "D-37",
     },
     {
       link: "#",
       img: "images/cok3.png",
-      alt: "스포츠 윤리 센터",
-      label: [{ text: "", style: "cok_label_blue" }],
+      alt: "한국교육학술정보원",
+      label: [{ text: "대외활동", style: "cok_label_puple" }],
       city: "",
       option:
-        "[스포츠윤리센터] 스포츠윤리센터 성희롱·성폭력 예방 숏폼 영상공모전",
-      date: "D-28",
+        "[한국교육학술정보원(RISS)] 학술연구정보서비스 RISS의 공식 서포터즈 'PLAY RISS' 7기 모집",
+      date: "D-5",
     },
     {
       link: "#",
       img: "images/cok4.png",
-      alt: "스포츠 윤리 센터",
-      label: [{ text: "", style: "cok_label_blue" }],
+      alt: "CJ 대한통운",
+      label: [{ text: "인턴십", style: "cok_label_red" }],
       city: "서울 종로구",
-      option:
-        "[스포츠윤리센터] 스포츠윤리센터 성희롱·성폭력 예방 숏폼 영상공모전",
-      date: "D-28",
+      option: "[CJ대한통운] 25년도 TES LAB TRACK 인턴",
+      date: "D-7",
     },
   ];
 
@@ -66,8 +64,9 @@ window.addEventListener("load", function () {
                 </div>
                 <div class="cok_list_info">
                   <div class="cok_label">
-                    ${labHtml}</div>
+                    ${labHtml}
                     ${cityHtml}</div>
+                    </div>
                   <div class="cok_info_option">
                     ${item.option}
                   </div>
