@@ -52,12 +52,12 @@ window.addEventListener("load", function () {
     let cityHtml = ``;
 
     if (item.city) {
-      cityHtml = ` <div class="cok_info_city">${item.city}</div>`;
+      cityHtml = `<div class="cok_info_city">${item.city}</div>`;
     }
 
     let labHtml = ``;
     if (item.label) {
-      labHtml = `<div class="${item.style}">${item.text}</div>`;
+      labHtml = `<div class="${item.label[0].style}">${item.label[0].text}</div>`;
     }
 
     html += `<a href="${item.link}" class="cok_list">
@@ -66,9 +66,7 @@ window.addEventListener("load", function () {
                 </div>
                 <div class="cok_list_info">
                   <div class="cok_label">
-${labHtml}</div>
-                    
-                  
+                    ${labHtml}</div>
                     ${cityHtml}</div>
                   <div class="cok_info_option">
                     ${item.option}
