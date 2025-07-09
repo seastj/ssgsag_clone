@@ -48,11 +48,10 @@ window.addEventListener("load", function () {
 
     // city 가 있으면 생성 없을시 삭제
     let cityHtml = ``;
-
     if (item.city) {
       cityHtml = `<div class="cok_info_city">${item.city}</div>`;
     }
-
+    // 배열 안의 객체에 텍스트와 스타일에 따라 다르게 적용
     let labHtml = ``;
     if (item.label) {
       labHtml = `<div class="${item.label[0].style}">${item.label[0].text}</div>`;

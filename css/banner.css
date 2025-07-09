@@ -72,6 +72,7 @@
   scale: 0.7;
 }
 .banner_slide_pn .swiper-pagination-bullet {
+  margin: 0 2px !important;
 }
 .banner_slide_pn .swiper-pagination-bullet-active {
   background-color: #000;
