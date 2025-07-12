@@ -29,3 +29,38 @@
 }
 .justnew_banner_date {
 }
+/* label color */
+.label_blue {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: rgb(231, 235, 254);
+  color: #346df3;
+  font-size: 11px;
+  font-weight: 500;
+}
+.label_red {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #fff3f3;
+  color: #fe6d6d;
+  font-size: 11px;
+  font-weight: 500;
+}
+.label_puple {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #f2eefb;
+  color: #5f26cd;
+  font-size: 11px;
+  font-weight: 500;
+}
+/* label color */
