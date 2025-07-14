@@ -28,7 +28,6 @@
   width: 240px;
   height: 350px;
   border-radius: 14px;
-  margin-bottom: 12px;
 }
 .justnew_banner_img {
   position: absolute;
@@ -45,8 +44,25 @@
 }
 .justnew_banner_info {
   position: absolute;
+  display: block;
+  top: 244px;
 }
 .justnew_banner_label {
+  display: flex;
+  gap: 4px;
+}
+.justnew_banner_colorbox {
+  display: block;
+  width: auto;
+  height: auto;
+  background-color: rgb(231, 235, 254);
+  color: #346df3;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px;
+}
+.justnew_banner_city {
 }
 .justnew_banner_text {
 }
@@ -76,6 +92,17 @@
   font-weight: 500;
 }
 .label_puple {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #f2eefb;
+  color: #5f26cd;
+  font-size: 11px;
+  font-weight: 500;
+}
+.label_orange {
   display: inline-block;
   width: auto;
   height: auto;
