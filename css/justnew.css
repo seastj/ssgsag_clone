@@ -44,7 +44,9 @@
 }
 .justnew_banner_info {
   position: absolute;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   top: 244px;
 }
 .justnew_banner_label {
@@ -63,11 +65,29 @@
   padding: 4px;
 }
 .justnew_banner_city {
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #777777;
+  font-size: 11px;
+  font-weight: 500;
 }
 .justnew_banner_text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #444;
+  margin-top: 4px;
 }
 .justnew_banner_date {
+  position: absolute;
+  font-size: 17px;
+  font-weight: 600;
+  bottom: 0;
 }
+
 /* label color */
 .label_blue {
   display: inline-block;
