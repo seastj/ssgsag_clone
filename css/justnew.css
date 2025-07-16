@@ -43,11 +43,12 @@
   object-fit: cover;
 }
 .justnew_banner_info {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  top: 244px;
+  top: 224px;
+  padding-top: 8px;
+  height: auto;
 }
 .justnew_banner_label {
   display: flex;
@@ -82,7 +83,9 @@
   margin-top: 4px;
 }
 .justnew_banner_date {
-  position: absolute;
+  position: static;
+  display: block;
+  margin-top: auto;
   font-size: 17px;
   font-weight: 600;
   bottom: 0;
