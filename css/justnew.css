@@ -84,12 +84,10 @@
 }
 .justnew_banner_date {
   position: absolute;
-  display: block;
-  margin-top: auto;
   font-size: 17px;
   font-weight: 600;
-  left: 0;
-  bottom: 0;
+  left: 8px;
+  bottom: 8px;
 }
 
 /* label color */
