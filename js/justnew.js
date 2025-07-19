@@ -1,0 +1,68 @@
+window.addEventListener("load", function () {
+  const justDataArr = [
+    {
+      src: "#",
+      alt: "BMW 코리아 미래재단",
+      colorbox: "공모전",
+      city: "서울 강남구",
+      text: "[BMW 코리아 미래재단] Young Innovator Dream Project 2025",
+      date: "D-2",
+    },
+    {
+      src: "#",
+      alt: "BMW 코리아 미래재단",
+      colorbox: "공모전",
+      city: "서울 강남구",
+      text: "[BMW 코리아 미래재단] Young Innovator Dream Project 2025",
+      date: "D-2",
+    },
+    {
+      src: "#",
+      alt: "BMW 코리아 미래재단",
+      colorbox: "공모전",
+      city: "서울 강남구",
+      text: "[BMW 코리아 미래재단] Young Innovator Dream Project 2025",
+      date: "D-2",
+    },
+    {
+      src: "#",
+      alt: "BMW 코리아 미래재단",
+      colorbox: "공모전",
+      city: "서울 강남구",
+      text: "[BMW 코리아 미래재단] Young Innovator Dream Project 2025",
+      date: "D-2",
+    },
+    {
+      src: "#",
+      alt: "BMW 코리아 미래재단",
+      colorbox: "공모전",
+      city: "서울 강남구",
+      text: "[BMW 코리아 미래재단] Young Innovator Dream Project 2025",
+      date: "D-2",
+    },
+    {
+      src: "#",
+      alt: "BMW 코리아 미래재단",
+      colorbox: "공모전",
+      city: "서울 강남구",
+      text: "[BMW 코리아 미래재단] Young Innovator Dream Project 2025",
+      date: "D-2",
+    },
+    {
+      src: "#",
+      alt: "BMW 코리아 미래재단",
+      colorbox: "공모전",
+      city: "서울 강남구",
+      text: "[BMW 코리아 미래재단] Young Innovator Dream Project 2025",
+      date: "D-2",
+    },
+    {
+      src: "#",
+      alt: "BMW 코리아 미래재단",
+      colorbox: "공모전",
+      city: "서울 강남구",
+      text: "[BMW 코리아 미래재단] Young Innovator Dream Project 2025",
+      date: "D-2",
+    },
+  ];
+});
