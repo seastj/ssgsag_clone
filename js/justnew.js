@@ -1,7 +1,8 @@
 window.addEventListener("load", function () {
   const justDataArr = [
     {
-      src: "images/new1.png",
+      link: "#",
+      img: "images/new1.png",
       alt: "구로청년이룸",
       colorbox: "교육/강연",
       city: "",
@@ -9,7 +10,8 @@ window.addEventListener("load", function () {
       date: "D-21",
     },
     {
-      src: "images/new2.png",
+      link: "#",
+      img: "images/new2.png",
       alt: "스타아티스트",
       colorbox: "공모전",
       city: "",
@@ -17,7 +19,8 @@ window.addEventListener("load", function () {
       date: "D-73",
     },
     {
-      src: "images/new3.png",
+      link: "#",
+      img: "images/new3.png",
       alt: "유어유니콘",
       colorbox: "인턴십",
       city: "서울 강남구",
@@ -25,7 +28,8 @@ window.addEventListener("load", function () {
       date: "D-12",
     },
     {
-      src: "images/new4.png",
+      link: "#",
+      img: "images/new4.png",
       alt: "네이버웹툰",
       colorbox: "인턴십",
       city: "경기 성남시",
@@ -33,7 +37,8 @@ window.addEventListener("load", function () {
       date: "오늘 마감",
     },
     {
-      src: "images/new5.png",
+      link: "#",
+      img: "images/new5.png",
       alt: "NAVER Cloud",
       colorbox: "인턴십",
       city: "경기 성남시",
@@ -41,15 +46,17 @@ window.addEventListener("load", function () {
       date: "D-1",
     },
     {
-      src: "images/new6.png",
+      link: "#",
+      img: "images/new6.png",
       alt: "PTKOREA",
       colorbox: "인턴십",
       city: "서울 강남구",
       text: "[PTKOREA] 디지털 캠페인 기획 및 SNS 운영 보조",
-      date: "D-11",
+      date: "D-111",
     },
     {
-      src: "images/new7.png",
+      link: "#",
+      img: "images/new7.png",
       alt: "라이카카메라코리아",
       colorbox: "인턴십",
       city: "서울 강남구",
@@ -57,7 +64,8 @@ window.addEventListener("load", function () {
       date: "D-7",
     },
     {
-      src: "images/new8.png",
+      link: "#",
+      img: "images/new8.png",
       alt: "당근마켓",
       colorbox: "인턴십",
       city: "서울 서초구",
@@ -65,4 +73,27 @@ window.addEventListener("load", function () {
       date: "D-5",
     },
   ];
+
+  for (let i = 0; i < justDataArr.length; i++) {
+    const item = justDataArr[i];
+
+    html = `<a href="${item.link}" class="justnew_banner_content">
+                  <div class="justnew_banner_img">
+                    <img src="${item.img}" alt="${item.alt}" />
+                  </div>
+                  <div class="justnew_banner_info">
+                    <div class="justnew_banner_label">
+                      <div class="justnew_banner_colorbox">${item.colorbox}</div>
+                      <div class="justnew_banner_city">${item.city}</div>
+                    </div>
+                    <p class="justnew_banner_text">
+                     ${item.text}
+                    </p>
+                  </div>
+                  <div class="justnew_banner_date">
+                    <p>${item.date}</p>
+                  </div>
+                </a>`;
+  }
+  document.querySelector(".justnew_banner").innerHTML = html;
 });
