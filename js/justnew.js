@@ -72,19 +72,26 @@ window.addEventListener("load", function () {
       text: "[당근마켓] FP&A Intern",
       date: "D-5",
     },
-  ];
+  ];  
+
+  let html = ``;
 
   for (let i = 0; i < justDataArr.length; i++) {
     const item = justDataArr[i];
 
-    html = `<a href="${item.link}" class="justnew_banner_content">
+    let cityHtml = ``;
+    if (item.city) {
+      cityHtml = `<div class="justnew_banner_city">${item.city}</div>`;
+    }
+
+    html += `<a href="${item.link}" class="justnew_banner_content">
                   <div class="justnew_banner_img">
                     <img src="${item.img}" alt="${item.alt}" />
                   </div>
                   <div class="justnew_banner_info">
                     <div class="justnew_banner_label">
                       <div class="justnew_banner_colorbox">${item.colorbox}</div>
-                      <div class="justnew_banner_city">${item.city}</div>
+                      ${cityHtml}
                     </div>
                     <p class="justnew_banner_text">
                      ${item.text}
