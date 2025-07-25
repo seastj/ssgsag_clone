@@ -1,6 +1,8 @@
 .justnew {
-  width: auto;
+  max-width: 975px;
+  width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 .layout {
 }
@@ -20,15 +22,15 @@
 }
 .justnew_banner {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 2열 */
+  grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
   gap: 8px;
-  column-gap: 16px;
+  justify-content: center;
 }
 .justnew_banner_content {
   position: relative;
   display: block;
   padding: 8px;
-  width: 240px;
+  width: 100%;
   height: 350px;
   border-radius: 14px;
 }
@@ -36,7 +38,6 @@
   background-color: rgb(243, 245, 246);
 }
 .justnew_banner_img {
-  position: absolute;
   display: block;
   width: 224px;
   height: 224px;
@@ -53,7 +54,6 @@
   transform: scale(1.1);
 }
 .justnew_banner_info {
-  position: absolute;
   display: flex;
   flex-direction: column;
   top: 224px;

@@ -97,9 +97,9 @@ window.addEventListener("load", function () {
                      ${item.text}
                     </p>
                   </div>
-                  <div class="justnew_banner_date">
-                    <p>${item.date}</p>
-                  </div>
+                  <p class="justnew_banner_date">
+                    ${item.date}
+                  </p>
                 </a>`;
   }
   document.querySelector(".justnew_banner").innerHTML = html;
