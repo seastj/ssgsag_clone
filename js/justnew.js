@@ -72,7 +72,7 @@ window.addEventListener("load", function () {
       text: "[당근마켓] FP&A Intern",
       date: "D-5",
     },
-  ];  
+  ];
 
   let html = ``;
 
