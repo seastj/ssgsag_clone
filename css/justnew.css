@@ -1,13 +1,12 @@
 .justnew {
-  max-width: 975px;
-  width: 100%;
-  height: auto;
   margin: 0 auto;
 }
 .layout {
 }
 .justnew_main {
   padding: 56px 16px;
+  width: 975px;
+  height: auto;
 }
 .justnew_title {
   display: flex;
@@ -22,15 +21,17 @@
 }
 .justnew_banner {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
-  gap: 8px;
-  justify-content: center;
+  /* flex-wrap: wrap; */
+  grid-template-columns: repeat(4, 224px);
+  gap: 16px;
+  /* width: fit-content; */
+  /* min-width: calc(224px * 4 + 8px * 3); */
 }
 .justnew_banner_content {
   position: relative;
   display: block;
   padding: 8px;
-  width: 100%;
+  width: 240px;
   height: 350px;
   border-radius: 14px;
 }
@@ -97,6 +98,7 @@
   position: absolute;
   font-size: 17px;
   font-weight: 600;
+
   left: 8px;
   bottom: 8px;
 }
