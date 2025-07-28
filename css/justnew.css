@@ -39,17 +39,29 @@
   background-color: rgb(243, 245, 246);
 }
 .justnew_banner_img {
+  position: relative;
   display: block;
   width: 224px;
   height: 224px;
-  border-radius: 8px;
-  overflow: hidden;
 }
 .justnew_banner_img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgb(229, 231, 235);
   transition: ease 0.3s;
+}
+.justnew_banner_img::after {
+  z-index: 10;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.015);
 }
 .justnew_banner_content:hover img {
   transform: scale(1.1);
