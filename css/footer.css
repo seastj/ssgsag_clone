@@ -1,0 +1,92 @@
+.footer {
+  padding: 56px 0;
+  margin: 0 auto;
+}
+.layout {
+}
+.footer_wrap {
+}
+.footer_top {
+  display: flex;
+  border-bottom: 1px solid rgb(229, 231, 235);
+}
+.footer_top_service {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+}
+.service_title {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(28, 28, 28);
+}
+.service_tel {
+  display: flex;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(68, 68, 68);
+}
+.service_tel p {
+}
+.service_tel a {
+  color: rgb(68, 68, 68);
+}
+.service_time {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(170, 170, 170);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 40px;
+}
+.footer_top_company {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+}
+.company_title {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(28, 28, 28);
+}
+.company_info {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}
+.company_service {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}
+.company_work {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}
+.footer_top_business {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+}
+.business_title {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(28, 28, 28);
+}
+.business_add {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}
+.business_submit {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(119, 119, 119);
+}

@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
       colorbox: "인턴십",
       city: "경기 성남시",
       text: "[네이버웹툰] EU Webtoon 영상 디자이너",
-      date: "오늘 마감",
+      date: "D-3",
     },
     {
       link: "#",
