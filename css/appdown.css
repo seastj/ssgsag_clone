@@ -14,7 +14,7 @@
   margin: 0 auto;
   border-radius: 20px;
   display: flex;
-  gap: 40px;
+  gap: 55px;
 }
 .appdown_img {
   width: 360px;
@@ -26,22 +26,63 @@
   object-fit: cover;
 }
 .appdown_content_info {
+  padding-top: 45px;
 }
 .appdown_title {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(28, 28, 28);
+  padding-bottom: 15px;
 }
 .appdown_text {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(119, 119, 119);
+  padding-bottom: 40px;
 }
 .appdown_bts {
+  display: flex;
+  gap: 8px;
 }
 .appdown_bts_appstore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 6px;
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 10px;
+  width: 235px;
+  height: 50px;
+  cursor: pointer;
 }
 .appdown_bts_appstore img {
+  height: 24px;
+  width: 24px;
 }
 .appdown_bts_appstore p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(68, 68, 68);
 }
 .appdown_bts_googleplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 6px;
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 10px;
+  width: 235px;
+  height: 50px;
+  cursor: pointer;
 }
 .appdown_bts_googleplay img {
+  height: 24px;
+  width: 24px;
 }
 .appdown_bts_googleplay p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(68, 68, 68);
 }
