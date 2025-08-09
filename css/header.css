@@ -53,30 +53,40 @@
   */
 .header_top_right {
   display: flex;
+  gap: 10px;
 }
 .header_member {
   display: flex;
-  gap: 30px;
 }
 .header_member li {
   display: flex;
   font-size: 15px;
   font-weight: 500;
+  gap: 3px;
 }
 .header_member li a {
   display: flex;
   align-items: center;
   color: rgb(119, 119, 119);
+
+  padding: 7px 12px;
   gap: 8px;
+}
+.header_member li a:hover {
+  background-color: #f3f5f6;
+  padding: 7px 12px;
+  border-radius: 10px;
+  transition: 0.15s;
 }
 .login {
   font-size: 14px;
   font-weight: 500;
   padding: 10px 20px;
+  color: #fff;
   border: 1px solid rgb(131 127 255);
   border-radius: 10px;
   background-color: rgb(131 127 255);
 }
-.header_member li a.login {
-  color: #fff;
+.login:hover {
+  background-color: #7672ff;
 }
