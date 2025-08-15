@@ -90,3 +90,8 @@
 .login:hover {
   background-color: #7672ff;
 }
+@media all and (max-width: 768px) {
+  .header {
+    display: none;
+  }
+}
