@@ -90,8 +90,45 @@
 .login:hover {
   background-color: #7672ff;
 }
+
+.m_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 18px;
+  height: 55px;
+  align-items: center;
+  background-color: #fff;
+}
+.m_header_logo {
+  width: 77px;
+  height: 28px;
+}
+.m_header_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.m_header_menu {
+  width: 38px;
+  height: 38px;
+}
+.m_header_menu img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
 @media all and (max-width: 768px) {
   .header {
     display: none;
+  }
+  .m_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
   }
 }
